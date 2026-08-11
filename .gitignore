@@ -1,1 +1,4 @@
 node_modules/
+
+# Local task storage created by `todo` when run inside this repo
+.todo/

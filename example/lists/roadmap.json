@@ -1,0 +1,30 @@
+{
+  "title": "Roadmap",
+  "tasks": [
+    {
+      "title": "Ship the editing UI",
+      "done": true
+    },
+    {
+      "title": "Polish the visuals",
+      "subtasks": [
+        {
+          "title": "Bordered panes with focus colour",
+          "done": true
+        },
+        {
+          "title": "Progress bars in the sidebar",
+          "done": true
+        },
+        {
+          "title": "Scrolling for long lists",
+          "done": true
+        }
+      ]
+    },
+    {
+      "title": "Write the docs",
+      "done": false
+    }
+  ]
+}
