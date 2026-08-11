@@ -1,0 +1,31 @@
+{
+  "title": "Example project",
+  "tasks": [
+    {
+      "title": "Simple standalone task",
+      "done": false
+    },
+    {
+      "title": "Set up repository",
+      "done": true
+    },
+    {
+      "title": "Implement feature X",
+      "subtasks": [
+        {
+          "title": "Write the parser",
+          "done": true
+        },
+        {
+          "title": "Write the tests",
+          "done": false
+        },
+        {
+          "title": "Update the docs",
+          "done": false
+        }
+      ],
+      "done": false
+    }
+  ]
+}

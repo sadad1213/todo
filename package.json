@@ -1,0 +1,21 @@
+{
+  "name": "todo-tui",
+  "version": "0.1.0",
+  "description": "Terminal UI todo list backed by JSON files, editable by hand, a text editor, or an AI agent",
+  "type": "module",
+  "bin": {
+    "todo": "./bin/todo-tui.js",
+    "todo-tui": "./bin/todo-tui.js"
+  },
+  "scripts": {
+    "start": "node bin/todo-tui.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "chokidar": "^5.0.0",
+    "ink": "^7.1.1",
+    "react": "^19.2.8"
+  }
+}
